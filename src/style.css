@@ -1,0 +1,66 @@
+:root {
+--primary-color: #A2D2FF;
+--secondary-color: #5C7AEA;
+--button-color: #FCFFA6;
+--button-text-color: #00A19D;
+--border-color: #9D9D9D;
+--gradient: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+}
+
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.container {
+  background: var(--gradient);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.texts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.text {
+  flex:1;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 10px;
+  background: var(--primary-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-button {
+  background: var(--button-color);
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--button-text-color);
+}
+
+.contact-button:hover {
+  cursor: pointer;
+}
+
+.about-me-button {
+  background: var(--button-color);
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  color: var(--button-text-color);
+}
+
+.about-me-button:hover {
+  cursor: pointer;
+}
