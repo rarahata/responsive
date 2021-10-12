@@ -13,6 +13,11 @@ h2,
 h3 {
   text-align: center;
   color: var(--secondary-color);
+  margin: 30px;
+}
+
+h1 {
+  font-size: 60px;
 }
 
 .texts {
@@ -22,16 +27,15 @@ h3 {
 
 .text {
   flex:1;
-  border: 1px solid black;
   padding: 10px;
   border-radius: 20px;
   margin: 0 10px;
-  background: var(--primary-color);
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
+  margin: 40px;
 }
 
 .contact-button {
@@ -56,4 +60,8 @@ h3 {
 
 .about-me-button:hover {
   cursor: pointer;
+}
+
+.background {
+  background: var(--primary-color);
 }
