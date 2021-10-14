@@ -20,6 +20,10 @@ h1 {
   font-size: 60px;
 }
 
+.logo {
+  max-width: 50px;
+}
+
 .texts {
   display: flex;
   justify-content: space-evenly;
