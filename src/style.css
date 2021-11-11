@@ -71,7 +71,13 @@ p {
 
 @media (min-width: 1000px){
   .about-me {
-    font-size: large;
-  
+    font-size: large;  
+  }
+}
+
+@media (max-width: 1000px){
+  .about-me {
+    padding-top: 20px;
+
   }
 }
