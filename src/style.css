@@ -33,18 +33,6 @@ p {
   
 }
 
-.texts {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.text {
-  flex:1;
-  padding: 10px;
-  border-radius: 20px;
-  margin: 0 10px;
-}
-
 .contact-button {
   background: var(--primary-color);
   border: 1px solid var(--border-color);
@@ -59,7 +47,7 @@ p {
   cursor: pointer;
 }
 
-.background {
+.get-in-touch {
   background: var(--primary-color);
 }
 
