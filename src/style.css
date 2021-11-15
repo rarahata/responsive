@@ -4,6 +4,8 @@
 --button-color: #FCFFA6;
 --border-color: #9D9D9D;
 --gradient: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+--primary-font: 'Poppins', sans-serif;
+--heading-font: 'Playfair Display', serif
 }
 
 
@@ -12,20 +14,29 @@ h2,
 h3 {
   text-align: center;
   color: var(--secondary-color);
-  font-family: 'Playfair Display', serif;
+  font-family: var(--heading-font);
 }
 
-
+h4 {
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  font-family: var(--heading-font);
+}
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--primary-font);
 }
 
 .header {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--primary-font);
   color: black;
   line-height: 42px;
   font-size: 20px;
+}
+
+.header:hover {
+  color: var(--secondary-color);
 }
 
 nav ul {
@@ -39,7 +50,7 @@ nav li {
   margin-left: 10px;
   line-height: 42px;
   font-size: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--primary-font);
 }
 
 nav a {
@@ -48,7 +59,7 @@ nav a {
 }
 
 nav a:hover {
-  cursor: pointer;
+  color: var(--primary-color);
 }
 
 nav li.active a {
@@ -65,6 +76,22 @@ nav li.active a {
   margin: auto;
   padding-top: 15px;
   
+}
+
+.social-links {
+  background: var(--primary-color);
+  padding: 50px;
+}
+
+footer a {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
+footer a:hover {
+  color: var(--border-color);
 }
 
 .contact-button {
@@ -85,10 +112,9 @@ nav li.active a {
   background: var(--primary-color);
 }
 
-.email,
-.instagram {
-  display: block;
-  margin: auto;
+.icon {
+  color: var(--secondary-color);
+  padding: 0 5px;
 }
 
 @media (min-width: 1000px){
